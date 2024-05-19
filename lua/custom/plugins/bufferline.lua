@@ -16,5 +16,7 @@ return {
         },
       },
     }
+    vim.keymap.set('n', '<A-l>', ':bnext<CR>')
+    vim.keymap.set('n', '<A-h>', ':bprevious<CR>')
   end,
 }
